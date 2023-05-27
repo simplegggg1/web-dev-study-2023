@@ -21,7 +21,10 @@ footer {
 
 .tile-image {
   float: left;
-  height: 100px;
+  height: 200px;
+  /* width: 299.8px; */
+  /* margin: 0px 50px 10px 0px; */
+  margin-right: 50px;
 }
 .card {
   display: inline;
@@ -33,4 +36,33 @@ footer {
   float: right;
 }
 
-/* mobile: below 681px */
+#creative {
+  color: midnightblue;
+}
+
+/* above 681px, put title images horizontal. */
+@media (min-width: 681px) {
+  .card {
+    width: 45%;
+  }
+}
+/* below 680px, stretch width of the title image */
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+  .tile-image {
+    width: 100%;
+    object-fit: cover;
+  }
+  .card {
+    display: block;
+  }
+  .card-text {
+    text-align: justify;
+  }
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+}
