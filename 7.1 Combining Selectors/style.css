@@ -1,0 +1,62 @@
+/* Write your code here: */
+
+/*1.Group selectors.
+
+selector, selector{
+}
+
+Apply blue violet color for h1 and h2 */
+h1,
+h2 {
+	color: blueviolet;
+}
+
+/*2. Child selector. Apply to direct child of left selector.
+Only one level. 
+selector > selector{
+}
+set the first paragraph color as firebrick.
+*/
+.box > p {
+	color: firebrick;
+}
+
+/* 3. Descendant. Apply to a descendent of left side.
+Can apply to multiple selectors.
+
+selector1 selector2{
+
+} 
+
+set the color of the three list in blue.
+*/
+.box ul {
+	color: blue;
+}
+
+/* 4. Chaining selector.
+Apply where All selectors are true.
+Element at first, if you want to use an element.
+
+selectorselector {
+
+} 
+set the last two list elements in seagreen.
+*/
+li.done {
+	color: seagreen;
+}
+
+/* 5. Combining combiners.
+
+ex) descendent + chaining
+selector selectorselector{
+
+} 
+
+set the paragraph inside the unordered list's font size as 0.5rem.
+*/
+
+ul p.done {
+	font-size: 0.5rem;
+}
