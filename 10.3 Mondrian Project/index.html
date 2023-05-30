@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mondrian Project</title>
+		<style>
+			/* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+			.outer-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.inner-grid {
+				display: grid;
+				grid-template-columns: 320px 198px 153px 50px;
+				grid-template-rows: 414px 130px 155px 20px;
+				background-color: #000;
+				gap: 9px;
+				width: 748px;
+				height: 748px;
+				flex-shrink: 0;
+			}
+
+			.red {
+				background-color: #e72f24;
+			}
+			.white {
+				background-color: #f0f1ec;
+			}
+			.blue {
+				background-color: #004592;
+			}
+			.yellow {
+				background-color: #f9d01e;
+			}
+			.black {
+				background-color: #232629;
+			}
+			/* #red1 {				
+			} */
+			#white1 {
+				grid-column: span 3;
+			}
+			#white2 {
+				grid-row: span 2;
+			}
+			#white3 {
+				grid-column: span 2;
+				grid-row: span 2;
+			}
+			#white4 {
+				grid-column-start: 4;
+				grid-row: 3 / span 2;
+				/* grid-row-start: 3;
+				grid-row-end: 5; */
+				/* grid-row-start: 3;
+				grid-row-end: span 2; */
+			}
+			#blue1 {
+				grid-column-start: 4;
+				grid-column-end: 5;
+				grid-row-start: 2;
+				grid-row-end: 3;
+				border: #000 solid 0px;
+				border-bottom-width: 10px;
+			}
+			/* #white5 {
+				grid-column-start: 1;
+				grid-row-start: 4;
+			} */
+			/* #yellow1 {
+				grid-column: 2;
+				grid-row: 4;
+			}
+			#black1 {
+				grid-column: 3;
+				grid-row: 4;
+			} */
+		</style>
+	</head>
+
+	<body>
+		<!-- Write your HTML here -->
+		<div class="outer-container">
+			<div class="inner-grid">
+				<div id="red1" class="red grid-item">1</div>
+				<div id="white1" class="white grid-item">2</div>
+				<div id="white2" class="white grid-item">3</div>
+				<div id="white3" class="white grid-item">4</div>
+				<div id="white4" class="white grid-item">5</div>
+				<div id="white5" class="white grid-item">6</div>
+				<div id="blue1" class="blue grid-item">7</div>
+				<div id="yellow1" class="yellow grid-item">8</div>
+				<div id="black1" class="black grid-item">9</div>
+			</div>
+		</div>
+	</body>
+</html>
