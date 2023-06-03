@@ -1,0 +1,33 @@
+
+sections - 
+1. title - Inc name, job
+2. resume - education, work exp, skills, skills learned/learning
+3. projects - from prev work, from bootcamp
+4. about me - personalities? lazy, smart, friendly
+5. contact me - address, phone, email, link for my linkedin profile
+
+
+
+sources:
+https://getbootstrap.com/
+https://dribbble.com/shots/3402456-About-Calmind
+
+
+Designs:
+1. title - Centered hero from getbootstrap. 
+2. resume - 
+  edu/work - Jumbotron from getbootstrap with an image each.
+  skills - Icon grid from getbootstrap.
+  skills learning: Features with title from getbootstrap.(inc github link)
+3. projects - Bootstrap cards.
+4. about me - dribbble example.
+5. contact me -sticky footer inc linkedin btn(icon from bootstrap).
+
+overall
+Main colour: blue.
+text type..?
+align Centered
+taking full width.
+
+responsive - col-lg, col-sm
+html and css only.
