@@ -21,11 +21,13 @@ Designs:
   skills learning: Features with title from getbootstrap.(inc github link)
 3. projects - Bootstrap cards.
 4. about me - dribbble example.
-5. contact me -sticky footer inc linkedin btn(icon from bootstrap).
+5. contact me - footer inc linkedin btn(icon from bootstrap).
+              All the way at the bottom.
 
 overall
 Main colour: blue.
 text type..?
+h1~h6
 align Centered
 taking full width.
 
