@@ -1,0 +1,77 @@
+
+
+Taeyoung
+The programmer you have been looking for.
+
+Work Experience
+
+
+
+
+Skills learning
+Keep learning as a good developer.
+
+Github
+
+About me
+
+Lazy
+I'm lazy in general - which means, I don't expect other people to be diligent. Minimise unnecessary tasks as much as I can.
+
+Smart
+Smart to organise and record tasks. It makes following jobs easier. Even when a problem occurred or unfinished, I leave a good trail of the progress.
+
+Trust
+Not a put-it-into-a-drawer person. When I notice an issue, actively let others know and find a solution - or remediation.
+
+Probability
+Always assume that I might have made a mistake. It makes me easy to trace a bug.
+
+
+-----
+from resume:
+
+
+TAEYOUNG PARK
+216 Tooronga Road, Glen Iris, VIC 3146
+6 Kostas Street, Sunbury, VIC 3429 (from July 2023)
+0497-702-354
+simplegggg1@gmail.com
+
+C# Developer with 2 years and 8 months of experience in windows program developing and data migration. Bachelor in Computer Science.  
+
+TECHNICAL SKILLS	
+●	C# Winforms .Net 4.0~4.6 with Visual Studio
+●	SQL Server 2008 R2 – Create and manage database, table, SQL, transaction, stored procedure.
+
+PROFESSIONAL EXPERIENCE	
+ 
+KOSTEC 	    South Korea
+Developer 					                  Jun 2014 – Jan 2017
+●	Develop CRM program including sales/purchase/stock management, money transaction record, electronic tax invoice, various statistics, and report generating services. Report, receipt printing and customizing feature.
+●	Migrate/integrate old Visual Basic programs’ data and features.
+●	Technical support via TeamViewer remote access.
+EDUCATION	
+KOREA POLYTECHNIC UNIVERSITY     					          		    South Korea 
+Bachelor of Science in Computer Engineering, 							          Feb 2014 
+●	GPA 4.22/4.5
+LICENSE/CERTIFICATE	
+Microsoft Certificates
+●	Azure Developer Associate									          May 2023
+●	Azure Fundamental, Data Fundamental, Security Fundamental                 			           Sep 2022
+OTHER EXPERIENCES	
+●	Basic understanding of HTML/React. Performed React tutorial (tic-tac-toe game). https://codepen.io/tom_park/details/OJwLdZy
+●	Debugging Experience in Visual Studio.
+●	Basic multi-threading experience.
+●	Ability to prioritise tasks, and keep track of them.
+
+CAREER BREAKS	
+●	Truck driver, waste cooking oil collection.						      May 2022 – Current
+●	Grocery/Food delivery driver in Ubereats, Doordash, DriveYello platforms.     	    Nov 2019 – Apr 2022
+●	Working Holiday in Australia							     Aug 2017 – Aug2019
+– General labourer in abattoir (3 months). Forklift driver in a panel factory (1 year).
+●	Language study – English								  	  Feb – Jul 2017
+VISA	
+461 New Zealand Family Visa	DHA
+●	Have full working rights in Australia.						       Sep 2022 – Current 
+
