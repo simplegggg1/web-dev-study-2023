@@ -1,44 +1,51 @@
 .card-cover {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .work-exp {
-	background-image: url(assets/images/Kostec.png);
-	background-color: transparent;
+  background-image: url(assets/images/Kostec.png);
+  background-color: transparent;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
 }
 
 #about-me img {
-	max-width: 150px;
-	max-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  /* justify-content: center; */
+  vertical-align: middle;
 }
 
 .grid-about-me {
-	display: grid;
-	grid-template-columns: 150px 100px 100px;
-	grid-template-rows: 40px 100px 50px;
-	gap: 10px;
-	flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 150px 100px 100px;
+  grid-template-rows: 40px 100px 50px;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .grid-about-me > img {
-	grid-row: span 2;
+  grid-row: span 2;
 }
 
 .grid-about-me .reference-url {
-	grid-column-start: 1;
-	grid-row-start: 3;
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
 
 .grid-about-me > h3 {
-	grid-column-start: 2;
-	grid-row-start: 1;
-	margin: 0;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin: 0;
 }
 
 .grid-about-me > p {
-	grid-column: 2 / span 2;
-	grid-row-start: 2;
-	grid-row-end: 3;
+  grid-column: 2 / span 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }

@@ -33,3 +33,9 @@ taking full width.
 
 responsive - col-lg, col-sm
 html and css only.
+
+text:
+Taeyoung
+The programmer you have been looking for.
+
+Education
