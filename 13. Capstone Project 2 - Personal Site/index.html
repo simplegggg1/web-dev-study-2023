@@ -1,377 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<!-- link bootstrap -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-			crossorigin="anonymous"
-		/>
-		<!-- link personal css stylesheet -->
-		<link href="style.css" rel="stylesheet" />
-	</head>
-	<body>
-		<!-- 1. title  -->
-		<section id="title">
-			<!-- Title section -->
-			<div class="px-4 pt-5 mt-5 text-center">
-				<img
-					class="d-block mx-auto mb-4 img-thumbnail rounded-circle"
-					src="assets/images/profile-photo.jpg"
-					alt="profile image"
-					width="150"
-					height="30"
-				/>
-				<h1 class="display-5 fw-bold text-body-emphasis">Taeyoung</h1>
-				<div class="col-lg-6 mx-auto">
-					<p class="lead">The programmer you have been looking for.</p>
-				</div>
-			</div>
-		</section>
-		<!-- 2. resume  -->
-		<section id="resume">
-			<!-- 2.1 work experience -->
-			<div id="work-exp">
-				<div class="mt-5">
-					<div class="p-5 text-start bg-body-tertiary">
-						<div class="container py-5">
-							<h2 class="text-body-emphasis">Work Experience</h2>
-							<div class="row">
-								<p class="col-lg-8 lead">
-									KOSTEC, South Korea
-									<br />Developer
-								</p>
-								<img
-									class="col-lg-4 col-sm-5 col-6"
-									src="assets/images/Kostec.png"
-									alt="kostec logo"
-								/>
-							</div>
-							<ul class="col-lg-8">
-								<li>
-									Develop CRM program.
-									<ul>
-										<li>sales/purchase/stock management</li>
-										<li>money transaction record</li>
-										<li>electronic tax invoice</li>
-										<li>various statistics and report services</li>
-										<li>Report, receipt printing and customizing</li>
-									</ul>
-								</li>
-								<li>
-									Migrate/integrate old Visual Basic programs’ data and features
-								</li>
-								<li>Technical support via TeamViewer remote access.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 2.2 edu -->
-			<div id="edu">
-				<div class="mt-5">
-					<div class="p-5 text-start bg-body-tertiary">
-						<div class="container py-5">
-							<h2 class="text-body-emphasis">Education</h2>
-							<p class="col-lg-8 lead">
-								KOREA POLYTECHNIC UNIVERSITY, South Korea
-							</p>
-							<ul class="col-lg-8">
-								<li>Bachelor of Science in Computer Engineering, Feb 2014</li>
-								<li>GPA 4.22/4.5</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 2.5 certificates -->
-			<div id="certification">
-				<!-- education div -->
-				<div class="mt-5">
-					<div class="p-5 text-start bg-body-tertiary">
-						<div class="container py-5">
-							<h2 class="text-body-emphasis">Certification</h2>
-							<!-- <p class="col-lg-8 mx-auto lead">This</p> -->
-							<ul class="col-lg-8">
-								<li>
-									Azure Developer Associate
-									<a
-										href="https://www.credly.com/badges/081ff29a-a77c-4769-8bd1-665cb94150b6/public_url"
-										class="btn btn-link"
-										target="_blank"
-									>
-										<!-- <button type="button" class="btn btn-link">Link</button> -->
-										Link
-									</a>
-								</li>
-								<!--add link?-->
-								<li>
-									Azure Fundamentals
-									<a
-										href="https://www.credly.com/badges/1391a21e-665d-4edc-b044-658e4842d8f4/public_url"
-										class="btn btn-link"
-										target="_blank"
-									>
-										<!-- <button type="button" class="btn btn-link">Link</button> -->
-										Link
-									</a>
-								</li>
-								<li>
-									Azure Data Fundamentals
-									<a
-										href="https://www.credly.com/badges/793fb561-b712-4a71-b39e-096b8a245294/public_url"
-										class="btn btn-link"
-										target="_blank"
-									>
-										<!-- <button type="button" class="btn btn-link">Link</button> -->
-										Link
-									</a>
-								</li>
-								<li>
-									Security, Compliance, and Identity Fundamentals
-									<a
-										href="https://www.credly.com/badges/d68eb5fb-c4df-4599-b777-5e95a770f6a7/public_url"
-										class="btn btn-link"
-										target="_blank"
-									>
-										<!-- <button type="button" class="btn btn-link">Link</button> -->
-										Link
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 2.3 skills -->
-			<div id="skills">
-				<!-- skills div -->
-				<div class="container px-4 py-5" id="icon-grid">
-					<h2 class="pb-2 border-bottom">Skills</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- link personal css stylesheet -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- 1. title  -->
+    <section id="title">
+      <div class="px-4 pt-5 mt-5 text-center">
+        <img
+          class="d-block mx-auto mb-4 img-thumbnail rounded-circle"
+          src="assets/images/profile-photo.jpg"
+          alt="profile image"
+          width="150"
+          height="30"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">Taeyoung</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead">The programmer you have been looking for.</p>
+        </div>
+      </div>
+    </section>
+    <!-- 2. resume  -->
+    <section id="resume">
+      <!-- 2.1 work experience -->
+      <div id="work-exp">
+        <div class="mt-5">
+          <div class="p-5 text-start bg-body-tertiary">
+            <div class="container py-5">
+              <h2 class="text-body-emphasis">Work Experience</h2>
+              <div class="row">
+                <p class="col-lg-8 lead">
+                  KOSTEC, South Korea
+                  <br />Developer
+                </p>
+                <img
+                  class="col-lg-4 col-sm-5 col-6"
+                  src="assets/images/Kostec.png"
+                  alt="kostec logo"
+                />
+              </div>
+              <ul class="col-lg-8">
+                <li>
+                  Develop CRM program.
+                  <ul>
+                    <li>sales/purchase/stock management</li>
+                    <li>money transaction record</li>
+                    <li>electronic tax invoice</li>
+                    <li>various statistics and report services</li>
+                    <li>Report, receipt printing and customizing</li>
+                  </ul>
+                </li>
+                <li>
+                  Migrate/integrate old Visual Basic programs’ data and features
+                </li>
+                <li>Technical support via TeamViewer remote access.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2.2 edu -->
+      <div id="edu">
+        <div class="mt-5">
+          <div class="p-5 text-start bg-body-tertiary">
+            <div class="container py-5">
+              <h2 class="text-body-emphasis">Education</h2>
+              <p class="col-lg-8 lead">
+                KOREA POLYTECHNIC UNIVERSITY, South Korea
+              </p>
+              <ul class="col-lg-8">
+                <li>Bachelor of Science in Computer Engineering, Feb 2014</li>
+                <li>GPA 4.22/4.5</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2.5 certificates -->
+      <div id="certification">
+        <!-- education div -->
+        <div class="mt-5">
+          <div class="p-5 text-start bg-body-tertiary">
+            <div class="container py-5">
+              <h2 class="text-body-emphasis">Certification</h2>
+              <!-- <p class="col-lg-8 mx-auto lead">This</p> -->
+              <ul class="col-lg-8">
+                <li>
+                  Azure Developer Associate
+                  <a
+                    href="https://www.credly.com/badges/081ff29a-a77c-4769-8bd1-665cb94150b6/public_url"
+                    class="btn btn-link"
+                    target="_blank"
+                  >
+                    <!-- <button type="button" class="btn btn-link">Link</button> -->
+                    Link
+                  </a>
+                </li>
+                <!--add link?-->
+                <li>
+                  Azure Fundamentals
+                  <a
+                    href="https://www.credly.com/badges/1391a21e-665d-4edc-b044-658e4842d8f4/public_url"
+                    class="btn btn-link"
+                    target="_blank"
+                  >
+                    <!-- <button type="button" class="btn btn-link">Link</button> -->
+                    Link
+                  </a>
+                </li>
+                <li>
+                  Azure Data Fundamentals
+                  <a
+                    href="https://www.credly.com/badges/793fb561-b712-4a71-b39e-096b8a245294/public_url"
+                    class="btn btn-link"
+                    target="_blank"
+                  >
+                    <!-- <button type="button" class="btn btn-link">Link</button> -->
+                    Link
+                  </a>
+                </li>
+                <li>
+                  Security, Compliance, and Identity Fundamentals
+                  <a
+                    href="https://www.credly.com/badges/d68eb5fb-c4df-4599-b777-5e95a770f6a7/public_url"
+                    class="btn btn-link"
+                    target="_blank"
+                  >
+                    <!-- <button type="button" class="btn btn-link">Link</button> -->
+                    Link
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2.3 skills -->
+      <div id="skills">
+        <!-- skills div -->
+        <div class="container px-4 py-5" id="icon-grid">
+          <h2 class="pb-2 border-bottom">Skills</h2>
 
-					<div
-						class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
-					>
-						<div class="col d-flex align-items-start">
-							<svg
-								class="bi text-body-secondary flex-shrink-0 me-3"
-								width="1.75em"
-								height="1.75em"
-							>
-								<use xlink:href="#bootstrap"></use>
-							</svg>
-							<div>
-								<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C#</h3>
-								<p>Winforms .Net 4.0~4.6 with Visual Studio</p>
-							</div>
-						</div>
-						<div class="col d-flex align-items-start">
-							<svg
-								class="bi text-body-secondary flex-shrink-0 me-3"
-								width="1.75em"
-								height="1.75em"
-							>
-								<use xlink:href="#cpu-fill"></use>
-							</svg>
-							<div>
-								<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">SQL</h3>
-								<p>
-									SQL Server 2008 R2 – Create and manage DB, table, query,
-									transaction, stored procedure.
-								</p>
-							</div>
-						</div>
-						<div class="col d-flex align-items-start">
-							<svg
-								class="bi text-body-secondary flex-shrink-0 me-3"
-								width="1.75em"
-								height="1.75em"
-							>
-								<use xlink:href="#calendar3"></use>
-							</svg>
-							<div>
-								<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Azure</h3>
-								<p>
-									Basic knowledge obtained. Able to set up web app, web api, vm.
-								</p>
-							</div>
-						</div>
-						<div class="col d-flex align-items-start">
-							<svg
-								class="bi text-body-secondary flex-shrink-0 me-3"
-								width="1.75em"
-								height="1.75em"
-							>
-								<use xlink:href="#home"></use>
-							</svg>
-							<div>
-								<h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
-									HTML, CSS, Bootstrap
-								</h3>
-								<p>Web Front end experience via bootcamp.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 2.4 skills learning -->
-			<div id="skills-learning">
-				<div class="container px-4 py-5">
-					<h2 class="pb-2 border-bottom">Skills learning</h2>
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+          >
+            <div class="col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="bi text-body-secondary flex-shrink-0 me-3"
+                width="2.5em"
+                height="2.5em"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                />
+                <path
+                  d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"
+                />
+              </svg>
 
-					<div
-						class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
-					>
-						<div class="col d-flex flex-column align-items-start gap-2">
-							<h2 class="fw-bold text-body-emphasis">
-								Keep learning as a good developer.
-							</h2>
-							<p class="text-body-secondary">
-								The skill I have now is important, but continuous update is
-								essential, too. <br />Has ability to learn more any time.
-							</p>
-							<a
-								href="https://github.com/simplegggg1"
-								class="btn btn-primary btn-lg"
-								target="_blank"
-								>My Github</a
-							>
-						</div>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">C#</h3>
+                <p>Winforms .Net 4.0~4.6 with Visual Studio</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="bi text-body-secondary flex-shrink-0 me-3"
+                width="2.5em"
+                height="2.5em"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"
+                />
+              </svg>
 
-						<div class="col">
-							<div class="row row-cols-1 row-cols-sm-2 g-4">
-								<div class="col d-flex flex-column gap-2">
-									<div
-										class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
-									>
-										<svg class="bi" width="1em" height="1em">
-											<use xlink:href="#collection"></use>
-										</svg>
-									</div>
-									<h4 class="fw-semibold mb-0 text-body-emphasis">
-										Javascript, React
-									</h4>
-									<p class="text-body-secondary">
-										To add scripting on the front-end web.
-									</p>
-								</div>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">SQL</h3>
+                <p>
+                  SQL Server 2008 R2 – Create and manage DB, table, query,
+                  transaction, stored procedure.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                class="bi text-body-secondary flex-shrink-0 me-3"
+                width="2.5em"
+                height="2.5em"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.33492 1.37491C5.44717 1.04229 5.75909 0.818359 6.11014 0.818359H11.25L5.91513 16.6255C5.80287 16.9581 5.49095 17.182 5.13991 17.182H1.13968C0.579936 17.182 0.185466 16.6325 0.364461 16.1022L5.33492 1.37491Z"
+                  fill="url(#paint0_linear_6102_134469)"
+                />
+                <path
+                  d="M13.5517 11.4546H5.45126C5.1109 11.4546 4.94657 11.8715 5.19539 12.1037L10.4005 16.9618C10.552 17.1032 10.7515 17.1819 10.9587 17.1819H15.5453L13.5517 11.4546Z"
+                  fill="#0078D4"
+                />
+                <path
+                  d="M6.11014 0.818359C5.75909 0.818359 5.44717 1.04229 5.33492 1.37491L0.364461 16.1022C0.185466 16.6325 0.579936 17.182 1.13968 17.182H5.13991C5.49095 17.182 5.80287 16.9581 5.91513 16.6255L6.90327 13.6976L10.4005 16.9617C10.552 17.1032 10.7515 17.1818 10.9588 17.1818H15.5454L13.5517 11.4545H7.66032L11.25 0.818359H6.11014Z"
+                  fill="url(#paint1_linear_6102_134469)"
+                />
+                <path
+                  d="M12.665 1.37478C12.5528 1.04217 12.2409 0.818237 11.8898 0.818237H6.13629H6.16254C6.51358 0.818237 6.82551 1.04217 6.93776 1.37478L11.9082 16.1021C12.0872 16.6324 11.6927 17.1819 11.133 17.1819H11.0454H16.8603C17.42 17.1819 17.8145 16.6324 17.6355 16.1021L12.665 1.37478Z"
+                  fill="url(#paint2_linear_6102_134469)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_6102_134469"
+                    x1="6.07512"
+                    y1="1.38476"
+                    x2="0.738178"
+                    y2="17.1514"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#114A8B" />
+                    <stop offset="1" stop-color="#0669BC" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_6102_134469"
+                    x1="10.3402"
+                    y1="11.4564"
+                    x2="9.107"
+                    y2="11.8734"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-opacity="0.3" />
+                    <stop offset="0.0711768" stop-opacity="0.2" />
+                    <stop offset="0.321031" stop-opacity="0.1" />
+                    <stop offset="0.623053" stop-opacity="0.05" />
+                    <stop offset="1" stop-opacity="0" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint2_linear_6102_134469"
+                    x1="9.45858"
+                    y1="1.38467"
+                    x2="15.3168"
+                    y2="16.9926"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3CCBF4" />
+                    <stop offset="1" stop-color="#2892DF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Azure</h3>
+                <p>
+                  Basic knowledge obtained. Able to set up web app, web api, vm.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="bi text-body-secondary flex-shrink-0 me-3"
+                width="2.5em"
+                height="2.5em"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M16 8a8.001 8.001 0 0 1-7.022 7.94l1.902-7.098a2.995 2.995 0 0 0 .05-1.492A2.977 2.977 0 0 0 10.237 6h5.511A8 8 0 0 1 16 8ZM0 8a8 8 0 0 0 7.927 8l1.426-5.321a2.978 2.978 0 0 1-.723.255 2.979 2.979 0 0 1-1.743-.147 2.986 2.986 0 0 1-1.043-.7L.633 4.876A7.975 7.975 0 0 0 0 8Zm5.004-.167L1.108 3.936A8.003 8.003 0 0 1 15.418 5H8.066a2.979 2.979 0 0 0-1.252.243 2.987 2.987 0 0 0-1.81 2.59ZM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                />
+              </svg>
 
-								<div class="col d-flex flex-column gap-2">
-									<div
-										class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
-									>
-										<svg class="bi" width="1em" height="1em">
-											<use xlink:href="#gear-fill"></use>
-										</svg>
-									</div>
-									<h4 class="fw-semibold mb-0 text-body-emphasis">Devops</h4>
-									<p class="text-body-secondary">
-										Continuous integration and deployment capability by
-										automating.
-									</p>
-								</div>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                  HTML, CSS, Bootstrap
+                </h3>
+                <p>Web Front end experience via bootcamp.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2.4 skills learning -->
+      <div id="skills-learning">
+        <div class="container px-4 py-5">
+          <h2 class="pb-2 border-bottom">Skills learning</h2>
 
-								<div class="col d-flex flex-column gap-2">
-									<div
-										class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
-									>
-										<svg class="bi" width="1em" height="1em">
-											<use xlink:href="#speedometer"></use>
-										</svg>
-									</div>
-									<h4 class="fw-semibold mb-0 text-body-emphasis">
-										Planned - SQL
-									</h4>
-									<p class="text-body-secondary">
-										Wrap-up for T-SQL and SQLite. Get more experience on No-SQL.
-									</p>
-								</div>
+          <div
+            class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+          >
+            <div class="col d-flex flex-column align-items-start gap-2">
+              <h2 class="fw-bold text-body-emphasis">
+                Keep learning as a good developer.
+              </h2>
+              <p class="text-body-secondary">
+                The skill I have now is important, but continuous update is
+                essential, too. <br />Has ability to learn more any time.
+              </p>
+              <a
+                href="https://github.com/simplegggg1"
+                class="btn btn-primary btn-lg"
+                target="_blank"
+                >My Github</a
+              >
+            </div>
 
-								<div class="col d-flex flex-column gap-2">
-									<div
-										class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
-									>
-										<svg class="bi" width="1em" height="1em">
-											<use xlink:href="#table"></use>
-										</svg>
-									</div>
-									<h4 class="fw-semibold mb-0 text-body-emphasis">
-										Planned - .Net Core
-									</h4>
-									<p class="text-body-secondary">
-										To add cross-platform capability.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- 3. projects  -->
-		<section id="projects">
-			<div class="container px-4 py-5" id="custom-cards">
-				<h2 class="pb-2 border-bottom">Projects</h2>
+            <div class="col">
+              <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                  >
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#collection"></use>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis">
+                    Javascript, React
+                  </h4>
+                  <p class="text-body-secondary">
+                    To add scripting on the front-end web.
+                  </p>
+                </div>
 
-				<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-					<div class="col">
-						<div
-							class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-							style="
-								background-image: url('assets/images/project-web-resume.png');
-							"
-						>
-							<div
-								class="d-flex flex-column h-100 p-5 pt-3 pb-3 text-success text-shadow-1"
-							>
-								<h3 class="pb-5 mt-4 mb-5 display-6 lh-1 fw-bold">
-									Resume Webpage with html, css, bootstrap
-								</h3>
-								<ul class="d-flex list-unstyled mt-auto pt-5">
-									<li class="me-auto">
-										<!-- <img
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                  >
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#gear-fill"></use>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis">Devops</h4>
+                  <p class="text-body-secondary">
+                    Continuous integration and deployment capability by
+                    automating.
+                  </p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                  >
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#speedometer"></use>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis">
+                    Planned - SQL
+                  </h4>
+                  <p class="text-body-secondary">
+                    Wrap-up for T-SQL and SQLite. Get more experience on No-SQL.
+                  </p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                  >
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#table"></use>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis">
+                    Planned - .Net Core
+                  </h4>
+                  <p class="text-body-secondary">
+                    To add cross-platform capability.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3. projects  -->
+    <section id="projects">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Projects</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('assets/images/project-web-resume.png');
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pt-3 pb-3 text-success text-shadow-1"
+              >
+                <h3 class="pb-5 mt-4 mb-5 display-6 lh-1 fw-bold">
+                  Resume Webpage with html, css, bootstrap
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto pt-5">
+                  <li class="me-auto">
+                    <!-- <img
 											src="https://github.com/twbs.png"
 											alt="Bootstrap"
 											width="32"
 											height="32"
 											class="rounded-circle border border-white"
 										/> -->
-									</li>
-									<!-- <li class="d-flex align-items-center me-3">
+                  </li>
+                  <!-- <li class="d-flex align-items-center me-3">
 										<svg class="bi me-2" width="1em" height="1em">
 											<use xlink:href="#geo-fill"></use>
 										</svg>
 										<small>Earth</small>
 									</li> -->
-									<li class="d-flex align-items-center">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											class="bi bi-calendar-check"
-											viewBox="0 0 16 16"
-										>
-											<path
-												d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"
-											/>
-											<path
-												d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-											/>
-										</svg>
-										<small>04/06/2023</small>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+                  <li class="d-flex align-items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-calendar-check"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                      />
+                      <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                      />
+                    </svg>
+                    <small>04/06/2023</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-					<!-- <div class="col">
+          <!-- <div class="col">
 						<div
 							class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
 							style="background-image: url('unsplash-photo-2.jpg')"
@@ -408,105 +482,121 @@
 							</div>
 						</div>
 					</div> -->
-				</div>
-			</div>
-		</section>
-		<!-- 4. about me  -->
-		<section id="about-me">
-			<!-- about me section -->
+        </div>
+      </div>
+    </section>
+    <!-- 4. about me  -->
+    <section id="about-me">
+      <!-- about me section -->
 
-			<div class="my-5">
-				<div class="p-5 text-start bg-body-tertiary">
-					<div class="container py-5">
-						<h2 class="text-body-emphasis">About Me</h2>
-						<div class="row align-items-center">
-							<div class="col-md-6">
-								<div class="grid-about-me">
-									<img src="assets/images/sloth.jpg" alt="sloth" />
-									<div class="reference-url">
-										<a
-											href="https://www.freepik.com/free-vector/funny-sloth-illustration_19910239.htm#page=2&query=sleeping%20sloth&position=28&from_view=search&track=locales"
-										>
-											Image by coolvector
-										</a>
-										on Freepik
-									</div>
-									<h3>Lazy</h3>
-									<p>
-										I'm lazy in general - which means, I don't expect other
-										people to be diligent. Minimise unnecessary tasks.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="grid-about-me">
-									<img src="assets/images/sloth.jpg" alt="sloth" />
-									<div class="reference-url">
-										<a
-											href="https://www.freepik.com/free-vector/funny-sloth-illustration_19910239.htm#page=2&query=sleeping%20sloth&position=28&from_view=search&track=locales"
-										>
-											Image by coolvector
-										</a>
-										on Freepik
-									</div>
-									<h3>Smart</h3>
-									<p>
-										Smart to organise and record tasks. It makes following jobs
-										easier. Even when a problem occurred or unfinished, I leave
-										a good trail of the progress.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="grid-about-me">
-									<img src="assets/images/sloth.jpg" alt="sloth" />
-									<div class="reference-url">
-										<a
-											href="https://www.freepik.com/free-vector/funny-sloth-illustration_19910239.htm#page=2&query=sleeping%20sloth&position=28&from_view=search&track=locales"
-										>
-											Image by coolvector
-										</a>
-										on Freepik
-									</div>
-									<h3>Trust</h3>
-									<p>
-										Not a put-it-into-a-drawer person. When I notice an issue,
-										actively let others know and find a solution - or
-										remediation.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="grid-about-me">
-									<img src="assets/images/sloth.jpg" alt="sloth" />
-									<div class="reference-url">
-										<a
-											href="https://www.freepik.com/free-vector/funny-sloth-illustration_19910239.htm#page=2&query=sleeping%20sloth&position=28&from_view=search&track=locales"
-										>
-											Image by coolvector
-										</a>
-										on Freepik
-									</div>
-									<h3>Probability</h3>
-									<p>
-										Always assume that I might have made a mistake. It makes me
-										easy to trace a bug.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- 5. contact me  -->
-		<section id="contact-me">
-			<div class="container">
-				<footer
-					class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-				>
-					<div class="col-md-4 d-flex align-items-center">
-						<!-- <a
+      <div class="my-5">
+        <div class="p-5 text-start bg-body-tertiary">
+          <div class="container py-5">
+            <h2 class="text-body-emphasis">About Me</h2>
+            <div class="row align-items-center about-me-row">
+              <div class="col-md-6">
+                <div class="grid-about-me">
+                  <img
+                    class="my-auto img-fluid"
+                    src="assets/images/sloth.jpg"
+                    alt="sloth"
+                  />
+                  <div class="reference-url">
+                    <a
+                      href="https://www.freepik.com/free-vector/funny-sloth-illustration_19910239.htm#page=2&query=sleeping%20sloth&position=28&from_view=search&track=locales"
+                    >
+                      Image - coolvector
+                    </a>
+                    on Freepik
+                  </div>
+                  <h3>Lazy</h3>
+                  <p>
+                    I'm lazy in general - which means, I don't expect other
+                    people to be diligent. Minimise unnecessary tasks.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="grid-about-me">
+                  <img
+                    class="my-auto img-fluid"
+                    src="assets/images/it-cat.jpg"
+                    alt="cat using laptop"
+                  />
+                  <div class="reference-url">
+                    <a
+                      href="https://www.freepik.com/free-vector/cute-cat-hacker-operating-laptop-cartoon-vector-icon-illustration-animal-technology-icon-isolated_35429072.htm#query=it%20cat&position=13&from_view=search&track=ais"
+                      >Image - catalyststuff</a
+                    >
+                    on Freepik
+                  </div>
+
+                  <h3>Smart</h3>
+                  <p>
+                    Smart to organise and record tasks. It makes following jobs
+                    easier. Even when a problem occurred or unfinished, I leave
+                    a good trail of the progress.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="grid-about-me">
+                  <img
+                    class="my-auto img-fluid"
+                    src="assets/images/trust.jpg"
+                    alt="two men shaking hands"
+                  />
+                  <div class="reference-url">
+                    <a
+                      href="https://www.freepik.com/free-vector/partnership-concept-illustration_13766133.htm#query=trust&position=17&from_view=search&track=sph"
+                    >
+                      Image by storyset
+                    </a>
+                    on Freepik
+                  </div>
+                  <h3>Trust</h3>
+                  <p>
+                    Not a put-it-into-a-drawer person. When I notice an issue,
+                    actively let others know and find a solution - or
+                    remediation.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="grid-about-me">
+                  <img
+                    class="my-auto img-fluid"
+                    src="assets/images/probability.jpg"
+                    alt="a woman questioning where to go"
+                  />
+                  <div class="reference-url">
+                    <a
+                      href="https://www.freepik.com/free-vector/choose-concept-illustration_5784490.htm#query=probability&position=3&from_view=search&track=sph"
+                    >
+                      Image by storyset
+                    </a>
+                    on Freepik
+                  </div>
+                  <h3>Probability</h3>
+                  <p>
+                    Keep in mind that I might have made a mistake. It makes me
+                    easy to find an issue in my code.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5. contact me  -->
+    <section id="contact-me">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <!-- <a
 							href="/"
 							class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
 						>
@@ -514,67 +604,67 @@
 								<use xlink:href="#bootstrap"></use>
 							</svg>
 						</a> -->
-						<span class="mb-3 mb-md-0 text-body-secondary"
-							>© 2023 Taeyoung</span
-						>
-					</div>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2023 Taeyoung</span
+            >
+          </div>
 
-					<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-						<li class="ms-3">
-							<a
-								class="text-body-secondary"
-								href="https://www.linkedin.com/in/taeyoung-park-994730122/"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="30"
-									height="30"
-									fill="blue"
-									class="bi bi-linkedin"
-									viewBox="0 0 16 16"
-								>
-									<path
-										d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-									/>
-								</svg>
-							</a>
-						</li>
-						<!-- <li class="ms-3">
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.linkedin.com/in/taeyoung-park-994730122/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="blue"
+                  class="bi bi-linkedin"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <!-- <li class="ms-3">
 							<a class="text-body-secondary" href="#"
 								><svg class="bi" width="24" height="24">
 									<use xlink:href="#instagram"></use>
 								</svg>
 							</a>
 						</li> -->
-						<li class="ms-3">
-							<a
-								class="text-body-secondary"
-								href="https://www.facebook.com/taeyoung.park.14203"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="30"
-									height="30"
-									fill="blue"
-									class="bi bi-facebook"
-									viewBox="0 0 16 16"
-								>
-									<path
-										d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-									/>
-								</svg>
-							</a>
-						</li>
-					</ul>
-				</footer>
-			</div>
-		</section>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://www.facebook.com/taeyoung.park.14203"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="blue"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
 
-		<!-- link bootstrap script -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <!-- link bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
