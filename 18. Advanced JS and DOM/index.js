@@ -24,42 +24,61 @@ var buttons = document.querySelectorAll(".drum");
 buttons.forEach((element) => {
   // element.addEventListener("click", handleClick);
   element.addEventListener("click", function () {
-    // console.log(this);
-    // this.style.color = "white";
     var buttonInnerHTML = this.innerHTML;
-    var audio;
-    switch (buttonInnerHTML) {
-      case "w":
-        audio = new Audio("sounds/crash.mp3");
-        break;
-      case "a":
-        audio = new Audio("sounds/kick-bass.mp3");
-        break;
-      case "s":
-        audio = new Audio("sounds/snare.mp3");
-        break;
-      case "d":
-        audio = new Audio("sounds/tom-1.mp3");
-        break;
-      case "j":
-        audio = new Audio("sounds/tom-2.mp3");
-        break;
-      case "k":
-        audio = new Audio("sounds/tom-3.mp3");
-        break;
-      case "l":
-        audio = new Audio("sounds/tom-4.mp3");
-        break;
-
-      default:
-        console.log(buttonInnerHTML);
-        break;
-    }
-
-    if (audio !== null) audio.play();
+    makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
   });
 });
 
+//adding keydown event
+
+document.addEventListener("keydown", function (event) {
+  makeSound(event.key);
+  buttonAnimation(event.key);
+});
+
+function makeSound(key) {
+  var audio;
+
+  switch (key) {
+    case "w":
+      audio = new Audio("sounds/crash.mp3");
+      break;
+    case "a":
+      audio = new Audio("sounds/kick-bass.mp3");
+      break;
+    case "s":
+      audio = new Audio("sounds/snare.mp3");
+      break;
+    case "d":
+      audio = new Audio("sounds/tom-1.mp3");
+      break;
+    case "j":
+      audio = new Audio("sounds/tom-2.mp3");
+      break;
+    case "k":
+      audio = new Audio("sounds/tom-3.mp3");
+      break;
+    case "l":
+      audio = new Audio("sounds/tom-4.mp3");
+      break;
+    default:
+      console.log(key);
+      break;
+  }
+
+  if (audio != null) audio.play();
+}
+
+function buttonAnimation(key) {
+  var activeButton = document.querySelector("." + key);
+  if (activeButton != null) {
+    activeButton.classList.add("pressed");
+    setTimeout(function () {
+      activeButton.classList.remove("pressed");
+    }, 500);
+  }
+}
 //higher order function
 /*
 function add(num1, num2) {
