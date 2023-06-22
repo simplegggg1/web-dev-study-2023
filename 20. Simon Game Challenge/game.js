@@ -67,14 +67,22 @@ function goNextLevel() {
   if (
     gamePattern.lenght != 0 &&
     gamePattern.length == userClickedPattern.length
-  )
-    nextSequence();
+  ) {
+    userClickedPattern = [];
+
+    //give a delay
+    setTimeout(() => {
+      nextSequence();
+    }, 1000);
+  }
 }
 
 function endGame() {
   gamePattern = [];
   userClickedPattern = [];
   gameStarted = false;
+  currentLevel = 0;
+  $("#level-title").text("Game Over. Press a key to start again.");
 }
 
 $(".btn").on("click", buttonClicked);
