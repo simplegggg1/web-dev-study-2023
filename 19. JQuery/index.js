@@ -57,3 +57,28 @@ $("h1").on("mouseover", function (event) {
 $("h1").on("mouseout", function (event) {
   $("h1").css("color", "");
 });
+
+//adding, removing elements
+$("h1").before("<button>Before</button>"); //add before the opening tag of h1
+$("h1").after("<button>After</button>"); //add after
+$("h1").prepend("<button>Prepend</button>"); //add right after the h1 opening tag
+$("h1").append("<button>Append</button>"); //add right before the h1 closing tag
+// $("button").remove();
+
+//website animation
+// $("h1").hide();
+// $("h1").show();
+// $("h1").fadeOut();
+// $("h1").fadeIn();
+// $("h1").slideUp();
+// $("h1").slideDown();
+
+$("button").click(function () {
+  // $("h1").toggle(); //hide <-> show
+  // $("h1").fadeToggle();
+  // $("h1").slideToggle();
+  //you can only add css values with a numeric value.
+  // $("h1").animate({ opacity: 0.5 });
+  //if you want more than one animations, chain them.
+  $("h1").slideUp().slideDown().animate({ opacity: 0.5 });
+});
