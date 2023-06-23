@@ -76,13 +76,25 @@ function goNextLevel() {
     }, 1000);
   }
 }
-
-function endGame() {
+function startOver() {
   gamePattern = [];
   userClickedPattern = [];
   gameStarted = false;
   currentLevel = 0;
-  $("#level-title").text("Game Over. Press a key to start again.");
+}
+
+function endGame() {
+  startOver();
+  $("#level-title").text("Game Over, Press Any Key to Restart");
+  //apply game-over css class on the body and remove after 200ms.
+  $("body").addClass("game-over");
+  setTimeout(function () {
+    $("body").removeClass("game-over");
+  }, 200);
+
+  //play gameover sound
+  var audio = new Audio("sounds/wrong.mp3");
+  audio.play();
 }
 
 $(".btn").on("click", buttonClicked);
@@ -97,6 +109,5 @@ $(document).keydown(function () {
   if (gameStarted) return;
 
   gameStarted = true;
-  $("#level-title").text("Level " + currentLevel);
   nextSequence();
 });
