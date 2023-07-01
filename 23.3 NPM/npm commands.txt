@@ -1,0 +1,6 @@
+npm init
+npm install <packagename>
+or
+npm i <packagename> <packagename2> ...
+
+https://www.npmjs.com/
